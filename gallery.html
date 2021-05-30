@@ -6,9 +6,9 @@
     <meta name="description" content=" موقع شخصي اسم الطالب ">
     <meta name="author" content=" فرح المحادين ">
     <title> الموقع الشخصي </title>
-    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
 
 
 </head>
@@ -19,52 +19,64 @@
     <header>
 
         <div class="container">
-            <div id="branding">
-                <h1><i class="fas fa-user-circle"></i>
-                    <span class="highight"> صفحة اسم الطالب </span>
-                </h1>
+            <div id="branding" style="flex-grow: 8">
+                <h1><a href="index.html"><i class="fas fa-user-circle"></i>  صفحة M.Farah</a></h1>
             </div>
             <nav>
                 <ul>
                     <li>
                         <a href="index.html"> الرئيسية</a>
                     </li>
+
                     <li class="current">
-                        <a href="galler.html"> معرض الأعمال </a>
+                        <a href="gallery.html">معرض الاعمال</a>
                     </li>
                 </ul>
             </nav>
         </div>
-    </header>
-    <section class="main">
-        <div id="silder" class="container">
-            <div id="wrapper">
-                <div class="content">
-                    <img src="img/1.PNG">
-                </div>
-                <div class="content">
-                    <img src="img/2.PNG">
-                </div>
-                <div class="content">
-                    <img src="img/3.PNG">
-                </div>
-                <div class="content">
-                    <img src="img/4.PNG">
-                </div>
-            </div>
-            <div id="navlinks">
-                <ul>
-                    <li class="itemlinks" data-pos="0"></li>
-                    <li class="itemlinks" data-pos="1"></li>
-                    <li class="itemlinks" data-pos="2"></li>
-                    <li class="itemlinks" data-pos="3"></li>
 
-                </ul>
+    </header>
+
+    <section id="slider">
+        <div id="wrapper">
+            <div class="content">
+                <img src="img/1.PNG">
+            </div>
+            <div class="content">
+                <img src="img/2.PNG">
+            </div>
+            <div class="content">
+                <img src="img/3.PNG">
+            </div>
+            <div class="content">
+                <img src="img/4.PNG">
             </div>
         </div>
+
+        <div id="navLinks">
+            <ul>
+                <li data-pos="0"></li>
+                <li data-pos="1"></li>
+                <li data-pos="2"></li>
+                <li data-pos="3"></li>
+
+            </ul>
+        </div>
+
     </section>
+
+    <footer>
+        <section id="footer ">
+            <p> الصفحة الشخصية لاسم المسجل &copy; <span id="currentYear"></p></span>
+        </section>
+    </footer>
+
 </body>
+
+
 <script src="js/jquery.js"></script>
 <script src="js/silder.js"></script>
+<script src="js/scripts.js "></script>
+
 
 </html>

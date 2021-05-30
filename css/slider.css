@@ -1,7 +1,7 @@
 #slider {
     position: relative;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 500px;
     border: 5px black solid;
     overflow: hidden;
@@ -16,9 +16,7 @@
 #wrapper .content {
     float: right;
     width: 25%;
-    height: 100%;
-    background-repeat: no-repeat;
-    position: relative;
+    height: 50%;
 }
 
 #wrapper .content img {
