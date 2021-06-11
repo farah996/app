@@ -10,7 +10,7 @@
 #wrapper {
     width: 400%;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 
 #wrapper .content {
