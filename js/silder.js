@@ -5,9 +5,9 @@ $links.click(function(e) {
     var clickedLink = e.target;
     clickedLink = $(clickedLink);
     var position = clickedLink.attr("data-pos");
-    var translatevalue = "translate3d(" + position * 25 + "%)";
+    var translatevalue = "translateX(-" + position * 25 + "%)";
     $("#wrapper").css({
-        transform: translatevalue
+        transform: translateValue
     });
 
     clickedLink.addClass("active");
